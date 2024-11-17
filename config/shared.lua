@@ -10,7 +10,7 @@ return {
         light = {model = `prop_worklight_03b`, freeze = true},
         chair = {model = `prop_chair_08`, freeze = true},
         chairs = {model = `prop_chair_pile_01`, freeze = true},
-        tabe = {model = `prop_table_03`, freeze = true},
+        table = {model = `prop_table_03`, freeze = true},
         monitor = {model = `des_tvsmash_root`, freeze = true},
     },
 
@@ -20,17 +20,17 @@ return {
             vec3(-449.811, 6012.909, 31.815),
         },
         vehicle = {
-            vec4(452.0, -996.0, 26.0, 175.0),
-            vec4(447.0, -997.0, 26.0, 178.0),
-            vec4(463.0, -1019.0, 28.0, 87.0),
-            vec4(463.0, -1015.0, 28.0, 87.0),
+            --vec4(452.0, -996.0, 26.0, 175.0),
+            --vec4(447.0, -997.0, 26.0, 178.0),
+            --vec4(463.0, -1019.0, 28.0, 87.0),
+            --vec4(463.0, -1015.0, 28.0, 87.0),
         },
         stash = { -- Not currently used, use ox_inventory stashes
             -- vec3(453.075, -980.124, 30.889),
         },
         impound = {
-            vec3(436.68, -1007.42, 27.32),
-            vec3(-436.14, 5982.63, 31.34)
+            --vec3(436.68, -1007.42, 27.32),
+            --vec3(-436.14, 5982.63, 31.34)
         },
         helicopter = {
             vec4(449.168, -981.325, 43.691, 87.234),
@@ -40,10 +40,10 @@ return {
             -- vec3(462.23, -981.12, 30.68),
         },
         trash = {
-            vec3(439.0907, -976.746, 30.776),
+            vec3(474.77, -988.78, 26.27),
         },
         fingerprint = {
-            vec3(460.9667, -989.180, 24.92),
+            vec3(474.01, -1005.82, 26.27),
         },
         evidence = { -- Not currently used, use ox_inventory evidence system
         },
